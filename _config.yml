@@ -1,0 +1,63 @@
+# Site settings
+title: Kieferware Consulting
+email: f/xayrbvje
+url: https://kieferware.com
+description: "Kieferware Consulting is the freelance technology consultancy of Kurt Kiefer, offering expertise in software, firmware, and electroncs for embedded systems."
+keywords: "freelance, software, firmware, fpga, electronics, consulting, research, development"
+skills: "Software - Firmware - FPGA - Embedded Systems Design"
+meta_author: Kiefer Kurt
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: kieferware
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 0a2239 #80B3FF
+  primary-rgb: "31,133,222" #"128,179,255"
+  secondary: 2171bd #FD6E8A
+  secondary-dark: 19304f #A2122F
+
+# Footer settings
+footer:
+  copyright: Kieferware Consulting
+  location: Who we are
+  social: Around the Web
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/kiefer/
+  - title: github
+    url: https://github.com/kekiefer
+  - title: twitter
+    url: https://twitter.com/kekiefer
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Kurt Kiefer
+  - line: Goleta, CA 93117
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
