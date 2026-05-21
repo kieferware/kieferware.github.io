@@ -1,11 +1,11 @@
 # Site settings
-title: Kieferware Consulting
+title: KieferWare
 email: f/xayrbvje
 url: https://kieferware.com
-description: "Kieferware Consulting is the freelance technology consultancy of Kurt Kiefer, offering expertise in software, firmware, and electroncs for embedded systems."
-keywords: "freelance, software, firmware, fpga, electronics, consulting, research, development"
-skills: "Software - Firmware - FPGA - Embedded Systems Design"
-meta_author: Kiefer Kurt
+description: "KieferWare — software, firmware, and electronics engineering by Kurt Kiefer, specializing in FPGA development, embedded Linux, and embedded systems design."
+keywords: "software, firmware, fpga, electronics, embedded systems, research, development"
+skills: "Software · Firmware · FPGA · Embedded Systems"
+meta_author: Kurt Kiefer
 
 # Google webmaster tools
 google_verify:
@@ -25,15 +25,15 @@ disqus_shortname: kieferware
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 0a2239 #80B3FF
-  primary-rgb: "31,133,222" #"128,179,255"
-  secondary: 2171bd #FD6E8A
-  secondary-dark: 19304f #A2122F
+  primary: 0d0221
+  primary-rgb: "13,2,33"
+  secondary: 4a1080
+  secondary-dark: b967ff
 
 # Footer settings
 footer:
-  copyright: Kieferware Consulting
-  location: Who we are
+  copyright: KieferWare
+  location: About
   social: Around the Web
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -42,8 +42,6 @@ social:
     url: https://www.linkedin.com/in/kiefer/
   - title: github
     url: https://github.com/kekiefer
-  - title: twitter
-    url: https://twitter.com/kekiefer
 
 # Postal address (add as many lines as necessary)
 address:
@@ -60,4 +58,4 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: ""
+      permalink: /portfolio/:title/
